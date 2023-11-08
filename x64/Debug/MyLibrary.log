@@ -1,0 +1,10 @@
+﻿  my_library.cpp
+D:\Projects\GStreamer\MyLibrary\MyLibrary\my_library.cpp(9,12): warning C4273: 'MyLibrary::MyLibrary': inconsistent dll linkage
+D:\Projects\GStreamer\MyLibrary\MyLibrary\my_library.h(8,5): message : see previous definition of '{ctor}'
+D:\Projects\GStreamer\MyLibrary\MyLibrary\my_library.cpp(13,13): warning C4273: 'MyLibrary::~MyLibrary': inconsistent dll linkage
+D:\Projects\GStreamer\MyLibrary\MyLibrary\my_library.h(9,6): message : see previous definition of '{dtor}'
+D:\Projects\GStreamer\MyLibrary\MyLibrary\my_library.cpp(17,17): warning C4273: 'MyLibrary::doSomething': inconsistent dll linkage
+D:\Projects\GStreamer\MyLibrary\MyLibrary\my_library.h(11,10): message : see previous definition of 'doSomething'
+  LINK : D:\Projects\GStreamer\MyLibrary\x64\Debug\MyLibrary.dll not found or not built by the last incremental link; performing full link
+     Creating library D:\Projects\GStreamer\MyLibrary\x64\Debug\MyLibrary.lib and object D:\Projects\GStreamer\MyLibrary\x64\Debug\MyLibrary.exp
+  MyLibrary.vcxproj -> D:\Projects\GStreamer\MyLibrary\x64\Debug\MyLibrary.dll
